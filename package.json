@@ -1,0 +1,46 @@
+{
+  "name": "technical-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "start": "serve -s dist/"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.6.55",
+    "aos": "^2.3.4",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
+    "roboto-fontface": "^0.10.0",
+    "serve": "^11.3.2",
+    "typeface-montserrat": "^0.0.75",
+    "validator": "^13.1.17",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.12",
+    "vue-page-transition": "^0.2.2",
+    "vue-router": "^3.4.5",
+    "vue-svg-loader": "^0.16.0",
+    "vuetify": "^2.3.13",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-router": "^4.5.6",
+    "@vue/cli-plugin-unit-jest": "^4.5.6",
+    "@vue/cli-plugin-vuex": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/test-utils": "^1.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-vue": "^7.0.1",
+    "sass": "^1.26.12",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "makeApiRequest": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "doApi",
+    "body": [
+      "const resp = await this.$$store.dispatch(\"doApi\", {",
+      "  url: \"$users\",",
+      "  commit: \"$users\", // optional",
+      "  method: \"$get\",",
+      "  body: null, // required for post or patch",
+      "  respKey: null,",
+      "  onError: (err) => {}",
+      "})",
+      "console.log(resp)",
+      "$0"
+    ],
+    "description": "Make API request from Store via action and store it in state by comitting it"
+  },
+  "Toast Error": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "toast.error",
+    "body": [
+      "this.$$toast.error(\"$toast_message\")",
+      "$0"
+    ],
+    "description": "Toast Error Message"
+  },
+  "Toast Success": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "toast.success",
+    "body": [
+      "this.$$toast.success(\"$toast_message\")",
+      "$0"
+    ],
+    "description": "Toast Success Message"
+  },
+  "Toast Options": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "toast.options",
+    "body": [
+      "{",
+      "type: \"success\",",
+      "title: \"$title\",",
+      "closeText: \"$Ok\",",
+      "timeout: 3000,",
+      "callback: () => {}",
+      "}",
+      "$0"
+    ],
+    "description": "Toast Error Message"
+  },
+  "Loader Show": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "loading.show",
+    "body": [
+      "this.$$loading.show(\"$loading_key\")",
+      "$0"
+    ],
+    "description": "Toast Success Message"
+  },
+  "Loader Hide": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "loading.hide",
+    "body": [
+      "this.$$loading.hide(\"$loading_key\")",
+      "$0"
+    ],
+    "description": "Toast Success Message"
+  },
+}

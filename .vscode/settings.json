@@ -1,0 +1,23 @@
+{
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.formatOnSave": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  }
+}
